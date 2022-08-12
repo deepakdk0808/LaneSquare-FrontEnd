@@ -61,6 +61,7 @@ export const Create=()=>{
     }
 
     return (
+      <>
       <div className='Container'>
 
         <div className='Create'>
@@ -96,7 +97,13 @@ export const Create=()=>{
 </Table>
 </TableContainer>
   </div>
-       
       </div>
+      <div>
+      <h5>1.To Add your Task go to ADD TODO,here you can add your task and upon adding successfully you'll get a alert</h5>
+      <h5>2.If you want to DELETE A TODO ,just click on Delete button and it'll remove the task</h5>
+      <h5>3.If you want to EDIT A TODO.just click on respective task,it'll redirect you to next page where you can edit it.There's button to come back on main page.</h5>
+      <h5>THANK YOU FOR USING!!!!</h5>
+  </div>
+  </>
     );
 }
