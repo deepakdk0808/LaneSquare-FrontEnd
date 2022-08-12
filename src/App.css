@@ -1,0 +1,79 @@
+.Container{
+  width: 70%;
+  /* border:1px solid red; */
+  display: flex;
+  gap: 100px;
+  margin: auto;
+  margin-top: 40px;
+
+}
+
+.Create{
+  /* border: 1px solid black; */
+  margin-left: 40px;
+}
+
+.Create input{
+  border-radius: 10px;
+}
+.Create h1{
+  margin-top:-5px ;
+  margin-left: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: blueviolet;
+}
+
+.Create h4{
+  margin-bottom: -0.5px;
+  margin-left: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: blueviolet;
+ 
+}
+
+.Create button{
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: azure;
+}
+
+.List h1{
+  margin-top:-5px ;
+  margin-left: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: blueviolet;
+}
+
+.Edit{
+  /* border: 1px solid red; */
+  width: 40%;
+  margin: auto;
+  margin-top: 40px;
+  text-align: center;
+
+}
+
+.Edit h1{
+  margin-top:-5px ;
+  margin-left: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: blueviolet;  
+}
+
+.Edit input{
+  border-radius: 10px;
+  margin: auto;
+}
+
+.Edit button{
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: azure;
+}
